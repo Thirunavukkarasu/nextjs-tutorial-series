@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #efefef;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    justify-items: center;
+}
+
+.menu-items>li {
+    margin-left: 10px;
+}
+
+.menu-items>li>a {
+    text-decoration: none;
+}
